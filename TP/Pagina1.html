@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Control de Asistencias</title>
+    <link rel="stylesheet" href="Pagina1.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Control de Asistencias</h1>
+    </header>
+    <main>
+        <section class="login-section">
+            <h2>Ingrese su huella dactilar</h2>
+            <form id="biometric-form">
+                <label for="thumbprint">Coloque su dedo pulgar en el lector de huella:</label><br>
+                <input type="text" id="thumbprint" name="thumbprint" required><br>
+                <button type="submit">Registrar Asistencia</button>
+            </form>
+        </section>
+    </main>
+
+  
+    <div id="message" style="display: none;"></div>
+
+    <script src="Pagina1.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Administrador</title>
+    <link rel="stylesheet" href="Admin_pag.css">
+</head>
+<body>
+    <header>
+        <h1>Panel de Administrador</h1>
+    </header>
+    <main>
+        <div id="user-list"></div>
+        <div id="user-actions">
+            <h2>Dar de Baja/Alta a Usuarios</h2>
+            <label for="user-id">ID del Usuario:</label>
+            <input type="text" id="user-id">
+            <button id="deactivate-btn">Dar de Baja</button>
+            <button id="activate-btn">Dar de Alta</button>
+        </div>
+        <div id="create-user">
+            <h2>Crear Nueva Cuenta</h2>
+            <label for="new-username">Nombre de Usuario:</label>
+            <input type="text" id="new-username">
+            <label for="new-name">Nombre:</label>
+            <input type="text" id="new-name">
+            <button id="create-btn">Crear Cuenta</button>
+        </div>
+    </main>
+    <script src="Admin_pag.js"></script>
+</body>
+</html>
